@@ -1,0 +1,139 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.name {
+    background-color: #0e6a7a;
+    padding: 1%;
+    border-radius: 20px;
+}
+.title {
+    text-align: center;
+    width: 100%;
+color: #FF8D29;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.orange {
+    color:#FF8D29;
+    font-weight: bold;
+}
+.part_name {
+    color:#0e6a7a;
+    text-align: center;
+    font-weight: 500px;
+}
+.profile {
+    width: 90%;
+}
+#photo {
+    float: left;
+    border-radius: 50%;
+    height: 25rem;
+    padding: 10px;
+}
+.about_me {
+    text-align: justify;
+    padding: 10px;
+}
+.education {
+    align-self: center;
+    text-align: justify;
+    
+}
+.master {
+    float: left;
+    width: 40%;
+    margin-left: 6%;
+    margin-right: 6%;
+
+}
+.master h4 {
+    text-align: center;
+    padding-left: 3%;
+}
+.bachelor h4 {
+    text-align: left;
+    padding-left: 5%;
+}
+.master ul li {
+    list-style-type: none;
+}
+.bachelor {
+    float: left;
+    width: 40%;
+}
+.bachelor ul li {
+    list-style-type: none;
+}
+
+.experience {
+    display: flex;
+    flex-wrap: wrap;
+}
+.work {
+flex-basis: 50%;
+text-align: justify;
+}
+.work_title {
+    text-align: center;
+}
+.duty li {
+    color: #FF8D29;
+}
+.black {
+    color: black
+}
+
+.competencies {
+    width: 50%;
+    text-align: center;
+}
+.competencies ul li {
+    list-style-type: none;
+}
+.underlined {
+    text-decoration: underline;
+}
+
+.skill_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.skill_group {
+    text-align: center;
+
+}
+
+.skill {
+    flex-basis: 45%
+
+}
+.reg_aff {
+    padding-right: 10%;
+
+}
+.languages {
+    padding-right: 10%;
+}
+
+.contact {
+    padding-bottom: 30%;
+}
+footer {
+    text-align: center;
+    background-color: #0e6a7a;
+    color: #FF8D29;
+    padding: 1%;
+}
